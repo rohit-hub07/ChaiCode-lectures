@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../rohit/New folder/Cohort(chai and code)"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "challenges-cohort"
+	}
+}
