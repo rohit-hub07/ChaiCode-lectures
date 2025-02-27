@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //filter
 //return new array
 // worls with a condition
@@ -16,4 +17,24 @@ if(!Array.prototype.myFilter){
 
 const arr = [2,3,4,5,6]
 const newArr = arr.myFilter((el) => el % 2 === 0)
+=======
+//filter
+//return new array
+// worls with a condition
+
+if(!Array.prototype.myFilter){
+  Array.prototype.myFilter = function(userFnc){
+    const res = [];
+    for(let i = 0; i<this.length; i++){
+      if(userFnc(this[i])){
+        res.push(this[i])
+      }
+    }
+    return res;
+  }
+}
+
+const arr = [2,3,4,5,6]
+const newArr = arr.myFilter((el) => el % 2 === 0)
+>>>>>>> 9a8ac6c63169312b05665484361caa5884eb5bc7
 console.log(newArr)
