@@ -16,3 +16,7 @@ function deleteLast(){
 function calculateResult(){
   display.value = eval(display.value);
 }
+
+
+
+
